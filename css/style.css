@@ -47,7 +47,7 @@ section{
     min-height: 100vh;
     display:flex;
     align-items: center;
-    background-image: url(https://cfppa64.fr/wp-content/uploads/2019/11/image-informatique-entreprise.jpg);
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-blue-minimalistic-smart-technology-background-image_279070.jpg);
     background-size: cover;
     background-position: center ;
     background-attachment: fixed;
@@ -86,10 +86,14 @@ margin-bottom: 30px;
     transition: 0.6 ease;
 }
 .main-btn:hoover{
-    background-color: rgb(10, 84, 243);
-    transform: scale(1.1);
+    background-color: rgb(157, 182, 236);
+    font-size: 1.7em;
 }
-.social-icons a {
+h4 {
+    color: #fff;
+}
+
+ a {
     color:#fff;
     padding-right: 30px;
     font-size: 1.7em;
