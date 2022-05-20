@@ -8,7 +8,7 @@
 
 }
 header{
-    background-color: azure;
+    background-color:black;
     width:100% ;
     position: fixed;
     z-index: 999;
@@ -17,16 +17,21 @@ header{
     align-items: center;
     padding: 10px 200px;
 }
+header a:hoover{
+    color:orange;
+
+}
 .logo{
     text-decoration: none;
-    color: rgb(55, 36, 221);
+    color: white;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 1.8em;
 }
+
 .navigation a {
     text-decoration: none;
-    color:rgb(55, 36, 221);
+    color:orange;
     font-size: 1.3em;
     font-weight: 600;
     padding-left: 30px;
@@ -34,7 +39,7 @@ header{
 }
 
 .navigation a:hover{
-    color: rgba(143, 59, 223, 0.664);
+    color: white
 }
 
 section{
@@ -47,13 +52,13 @@ section{
     min-height: 100vh;
     display:flex;
     align-items: center;
-    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-blue-minimalistic-smart-technology-background-image_279070.jpg);
+    background-color: white;
     background-size: cover;
     background-position: center ;
     background-attachment: fixed;
 }
 .main h2{
-   color: #fff; 
+   color: black; 
    font-size: 1.4em;
    font-weight: 500;
 }
@@ -65,7 +70,7 @@ section{
     font-weight: 600;
 }
 .main h3{
-color:#fff;
+color:orange;
 font-size: 2em;
 font-weight: 700;
 letter-spacing: 1px;
@@ -86,15 +91,18 @@ margin-bottom: 30px;
     transition: 0.6 ease;
 }
 .main-btn:hoover{
-    background-color: rgb(157, 182, 236);
+    background-color: orange;
     font-size: 1.7em;
-}
-h4 {
-    color: #fff;
+    color:orange
 }
 
- a {
-    color:#fff;
+h4 {
+    color: black;
+}
+
+.social-icon  a {
+    color:black;
     padding-right: 30px;
     font-size: 1.7em;
+    text-decoration: none;
 }
