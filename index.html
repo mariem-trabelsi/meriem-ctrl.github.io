@@ -12,7 +12,7 @@
 <body>
 
     <header>
-     <a  class="logo" href="./meriem.html">  Meriem </a>
+     <a  class="logo" href="./meriem.html" style="transition: all 1s;">  Meriem </a>
      <nav class="navigation"> 
         
         <a href="./projects.html" > Projects </a>
@@ -29,11 +29,11 @@
              <h4>Actuellement en Licence de sciences inforamtiques(génie logicielle) à l'institut supérieur des technologies de l'information et de la communication à borj cédria, je suis à la recherche d'une entreprise qui pourrait m'accueillir dans le cadre d'un stage conventionné d'une durée de mois .
             </h4>
             <br>
-             <a href="./projects.html" class="main-btn" >Mes projets</a>
+             <a href="./projects.html" class="main-btn" id="b1"  >Mes projets</a>
              <div class="social-icon">
-                 <a href="https://www.linkedin.com/in/mariem-trabelsi-356557204/?midToken=AQHJmM80Mq_Ykg&midSig=36ltDHoTdDpag1&trk=eml-email_job_alert_digest_01-header-48-profile&trkEmail=eml-email_job_alert_digest_01-header-48-profile-null-efx5pu%7El3eexa2i%7Elc-null-neptune%2Fprofile%7Evanity%2Eview"><i class="fab fa-linkedin"></i>LinkedIn </a>
-                 <a href="https://github.com/meriem-ctrl"><i class="fab fa-github"></i>GitHub</a>
-                 <a href="https://www.facebook.com/profile.php?id=100068702482729"><i class="fab fa-facebook"></i>FaceBook</a>
+                 <a  style="transition: all 1s;"href="https://www.linkedin.com/in/mariem-trabelsi-356557204/?midToken=AQHJmM80Mq_Ykg&midSig=36ltDHoTdDpag1&trk=eml-email_job_alert_digest_01-header-48-profile&trkEmail=eml-email_job_alert_digest_01-header-48-profile-null-efx5pu%7El3eexa2i%7Elc-null-neptune%2Fprofile%7Evanity%2Eview"><i class="fab fa-linkedin"></i>LinkedIn </a>
+                 <a  style="transition: all 1s;" href="https://github.com/meriem-ctrl"><i class="fab fa-github"></i>GitHub</a>
+                 <a style="transition: all 1s;"  href="https://www.facebook.com/profile.php?id=100068702482729"><i class="fab fa-facebook"></i>FaceBook</a>
              </div>
         </div>
    
@@ -41,6 +41,12 @@
 
     </section>
 
-    
+   <script>
+       function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+sleep(2000).then(() => {document.getElementById("b1").style.transition="all 2s" });
+   </script> 
 </body>
 </html>
