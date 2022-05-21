@@ -19,6 +19,7 @@ header{
 }
 header a:hoover{
     color:orange;
+    transition:all 1s;
 
 }
 .logo{
@@ -35,6 +36,7 @@ header a:hoover{
     font-size: 1.3em;
     font-weight: 600;
     padding-left: 30px;
+    transition:all 1s;
 
 }
 
@@ -56,6 +58,7 @@ section{
     background-size: cover;
     background-position: center ;
     background-attachment: fixed;
+   
 }
 .main h2{
    color: black; 
