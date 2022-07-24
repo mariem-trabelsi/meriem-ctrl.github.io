@@ -7,13 +7,16 @@
    
 </head>
 <body>
-    <?php
-    $destinataire="meriemtrabelsi@isticbc.org";
-    $sujet="test mail";
-    $contenu="ça fonctionne mariouma";
-    $headers= "From:mariem.trabelsi@istic.ucar.tn";
-    mail($destinataire,$sujet,$contenu,$headers);
-    ?>
-    
+<?php
+     $to      = 'meriemtrabelsi@isticbc.org';
+     $subject = 'le sujet';
+     $message = 'Bonjour !';
+     $headers = 'From: mariem.trabelsi@istic.ucar.tn' . "\r\n" .
+     'Reply-To: mariem.trabelsi@istic.ucar.tn' . "\r\n" .
+     'X-Mailer: PHP/' . phpversion();
+
+     mail($to, $subject, $message, $headers);
+ ?>
+     <h1>you're welcome</h1>
 </body>
 </html>
